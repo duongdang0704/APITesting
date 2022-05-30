@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "Result": {
+      "type": "string",
+      "pattern": "OK"
+    },
+    "TPackNo": {
+      "type": "string"
+    },
+    "ErrorMsg": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "Result",
+    "TPackNo",
+    "ErrorMsg"
+  ]
+}

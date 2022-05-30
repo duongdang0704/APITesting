@@ -1,0 +1,53 @@
+{
+  "ItemNo": "204088",
+  "Description": "No Atl salmon sup gutted 3-4 kg 25 kg eps logo OP123",
+  "LotNo": "197159-5",
+  "Quantity": "27",
+  "NetWeight": "566",
+  "BasicUoM": "BOX",
+  "ContainerMgt": "7",
+  "AllocatedQty": "27",
+  "Allocateable": "0.000",
+  "ReceivingNo": "0",
+  "OrderLine": "OOOOOOOOOOLLLLL",
+  "PutAwayNo": "0",
+  "TransQty": "0",
+  "MfgDate": "20211011",
+  "ExpiryDate": "20220320",
+  "BBD": "",
+  "Customer": "",
+  "Status": "2",
+  "StateCode": null,
+  "AttrNoStkBal": "20220225028674469",
+  "AttrNoLot": "20220225028674470",
+  "TextID": null,
+  "CatchWeightFlag": "2",
+  "AttributesStockBalance": {
+    "AttrNo": "20220225028674469",
+    "Parent": "StkBal",
+    "Values": {
+      "ORDERNUMBER": "OOOOOOOOOOLLLLL",
+      "FISH_COUNT": "162",
+      "PACKING_DATE": "20211011"
+    }
+  },
+  "AttributesLot": {
+    "AttrNo": "20220225028674470",
+    "Parent": "Lot",
+    "Values": {
+      "HARVEST_DATE": "20211012",
+      "HARVEST_ID": "197159",
+      "CAGE_NUMBER": "0003",
+      "FARM_ID": "BIL",
+      "FLEX_GROUP": "0",
+      "VOL_FLEX_%": "0",
+      "MAX_%_ORD": "0",
+      "PACKING_STATION": "B41",
+      "LABEL": "B_HD-UB",
+      "PALLET_LABEL": "B_PALLET1",
+      "LANGUAGE": "EN",
+      "MES_INT": "0",
+      "ICE": "0"
+    }
+  }
+}

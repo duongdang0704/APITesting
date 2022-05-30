@@ -1,0 +1,153 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "TPackStateCode": {
+          "type": "null"
+        },
+        "TPackNo": {
+          "type": "string"
+        },
+        "Warehouse": {
+          "type": "string"
+        },
+        "StockZone": {
+          "type": "string"
+        },
+        "PackagingType": {
+          "type": "string"
+        },
+        "StoragePosition": {
+          "type": "string"
+        },
+        "IsMixed": {
+          "type": "boolean"
+        },
+        "StockBalance": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "ItemNo": {
+                  "type": "string"
+                },
+                "Description": {
+                  "type": "string"
+                },
+                "LotNo": {
+                  "type": "string"
+                },
+                "Quantity": {
+                  "type": "string"
+                },
+                "NetWeight": {
+                  "type": "string"
+                },
+                "BasicUoM": {
+                  "type": "string"
+                },
+                "ContainerMgt": {
+                  "type": "string"
+                },
+                "AllocatedQty": {
+                  "type": "string"
+                },
+                "Allocateable": {
+                  "type": "string"
+                },
+                "ReceivingNo": {
+                  "type": "string"
+                },
+                "OrderLine": {
+                  "type": "string"
+                },
+                "PutAwayNo": {
+                  "type": "string"
+                },
+                "TransQty": {
+                  "type": "string"
+                },
+                "MfgDate": {
+                  "type": "string"
+                },
+                "ExpiryDate": {
+                  "type": "string"
+                },
+                "BBD": {
+                  "type": "string"
+                },
+                "Customer": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "StateCode": {
+                  "type": "null"
+                },
+                "AttrNoStkBal": {
+                  "type": "string"
+                },
+                "AttrNoLot": {
+                  "type": "string"
+                },
+                "TextID": {
+                  "type": "null"
+                },
+                "CatchWeightFlag": {
+                  "type": "string"
+                },
+                "AttributesStockBalance": {
+                  "type": "null"
+                },
+                "AttributesLot": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "ItemNo",
+                "Description",
+                "LotNo",
+                "Quantity",
+                "NetWeight",
+                "BasicUoM",
+                "ContainerMgt",
+                "AllocatedQty",
+                "Allocateable",
+                "ReceivingNo",
+                "OrderLine",
+                "PutAwayNo",
+                "TransQty",
+                "MfgDate",
+                "ExpiryDate",
+                "BBD",
+                "Customer",
+                "Status",
+                "StateCode",
+                "AttrNoStkBal",
+                "AttrNoLot",
+                "TextID",
+                "CatchWeightFlag",
+                "AttributesStockBalance",
+                "AttributesLot"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "TPackStateCode",
+        "TPackNo",
+        "Warehouse",
+        "StockZone",
+        "PackagingType",
+        "StoragePosition",
+        "IsMixed",
+        "StockBalance"
+      ]
+    }
+  ]
+}
